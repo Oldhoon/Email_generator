@@ -22,7 +22,7 @@ public class EmailGeneratorService {
                 })
         });
         // Do request and get response
-
+    return null;
 
         // Return response
     }
