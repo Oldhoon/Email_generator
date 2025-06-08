@@ -85,7 +85,7 @@ function injectButton() {
                 throw new Error('API request failed');
             }
 
-            const generatedReply = await response.test();
+            const generatedReply = await response.text();
             const composeBox = document.querySelector('[role="textbox"][g_editable="true"]'); // Adjust selector as needed
             if (composeBox) {
                 composeBox.focus(); // Focus the compose box
