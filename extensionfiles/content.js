@@ -69,7 +69,7 @@ function injectButton() {
             button.disabled = true; // Disable button to prevent multiple clicks
             
             const emailContent = getEmailContent(); // Function to get the email content
-            const response = await fetch('http://localhost:8080/api/email/generate', {
+            const response = await fetch('https://ec2-18-221-45-56.us-east-2.compute.amazonaws.com/api/email/generate', {
                 method : 'POST',
                 headers: {
                     'Content-Type': 'application/json',
