@@ -7,7 +7,7 @@
         "activeTab",
         "storage"
     ],
-    "Host-permissions": [
+    "host_permissions": [
         "http://localhost:8080/*",
         "*://mail.google.com/*"
     ],
